@@ -1,0 +1,13 @@
+[alpaca]
+KEY_ID=''
+SECRET_KEY=''
+BASE_URL=https://paper-api.alpaca.markets/v2
+
+[slack]
+client=ENTER_YOUR_SLACK_CHANNEL_TOKEN_HERE
+
+curl --request GET \
+     --url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cvirtual-protocol%2Cdogecoin%2Csui%2Csolana' \
+     --header 'accept: application/json' \
+     --header 'x-cg-demo-api-key: CG-ByR6s5qDLS6STgj7FY4xAqCg'
+
